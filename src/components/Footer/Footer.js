@@ -15,7 +15,7 @@ function Footer() {
       <div className='social_media_box'>
         <a href="https://t.me/hawk_strike_ali_and_aziz"><FaTelegramPlane /></a>
         <a href="http://facebook.com/hawk.strike.uz"><FaFacebookSquare /></a>
-        <a href="https://instagram.com/hawk.strike.uz"><FaInstagram /></a>
+        <a href="https://instagram.com/hawkstrikebarbershop"><FaInstagram /></a>
       </div>
     </div>
   );
