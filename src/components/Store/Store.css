@@ -1,0 +1,24 @@
+.Shop_container{
+    width: 100%;
+    height: 100vh;
+
+}
+.shop_bg{
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('https://rival.team/images/bg-shop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.coming_soon {
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-top: 21rem;
+    height: auto;
+    font-size: 3rem;
+    font-weight: 600;
+}

@@ -1,0 +1,97 @@
+.footer {
+    width: 84%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    position: absolute;
+    z-index: 1;
+    color: white;
+    bottom: 80px;
+    padding-left: 1%;
+}
+
+.location_box {
+    display: flex;
+    width: 21%;
+    justify-content: space-between;
+    align-items: center; /* Center icons and text vertically */
+    font-size: 18px; /* Increase font size for text */
+}
+
+.location_box:first-child {
+    margin-top: 3px;
+}
+
+.location_box a {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: white;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.location_box a:hover {
+    color: #f00; /* Change color on hover */
+}
+
+.social_media_box {
+    width: 12%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 28px; /* Increase icon size */
+}
+
+.social_media_box a {
+    display: flex;
+    align-items: center; /* Center icons vertically */
+    justify-content: center; /* Center icons horizontally */
+    transition: color 1s ease; /* Slow transition for icon hover */
+}
+.social_media_box a:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: #f00; /* Change color on hover */
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .social_media_box{
+        width: 18%;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .social_media_box{
+        width: 22%;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .social_media_box{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media (max-width: 1500px) {
+    .location_box{
+        width: 25%;
+    }
+}
+@media (max-width: 1200px) {
+    .location_box{
+        width: 30%;
+    }
+}
+@media (max-width: 950px) {
+    .location_box{
+        width: 40%;
+    }
+}
+@media (max-width: 715px) {
+    .location_box{
+        width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .location_box{
+        width: 60%;
+    }
+    .footer{
+        bottom: 40px !important;
+    }
+}

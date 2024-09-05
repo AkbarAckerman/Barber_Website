@@ -1,0 +1,147 @@
+.barbers_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.barbers_box {
+    width: 100%;
+    height: calc(100vh - 150px); /* Adjust height to account for Header and Footer */
+    display: flex;
+    flex-direction: row;
+}
+
+.barber {
+    width: 50vw; /* Each image takes up 50% of the viewport width */
+    height: 100vh; /* Full height of the viewport */
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    position: relative;
+    transition: filter 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.barber:first-child {
+    background-image: url('../assets/barber_one.jpg');
+}
+
+.barber:last-child {
+    background-image: url('../assets/barber_two.jpg');
+}
+
+.barber:hover {
+    filter: grayscale(0%);
+}
+
+.barber_name {
+    position: absolute;
+    bottom: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: transparent;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lobster', cursive; /* Use a stylish font */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.5s ease, transform 0.5s ease;
+    text-align: center; /* Center text alignment */
+    white-space: pre-line; /* Preserve line breaks */
+}
+
+.barber:hover .barber_name {
+    color: red; /* Red color on hover */
+    transform: translate(-50%, -10px); /* Move the text slightly upward on hover */
+}
+
+/* Media query for screens 1000px or smaller */
+@media (max-width: 1200px) {
+    .barber_name {
+        top: 55%;
+        font-size: 20px;
+        white-space: normal; /* Allow text to wrap to the next line */
+        line-height: 1.2; /* Adjust the line height for better spacing */
+    }
+
+    /* Ensure each name and the title 'Barber' appear on separate lines */
+    .barber_name:first-child::after,
+    .barber_name:last-child::after {
+        content: "Barber";
+        display: block;
+        margin-top: 5px; /* Space between name and title */
+        font-size: 18px; /* Slightly smaller font for the title */
+        color: red; /* Consistent color */
+    }
+    .barbers_box {
+        flex-direction: column; /* Stack the images vertically */
+        height: 100vh; /* Full height of the viewport */
+    }
+
+    .barber {
+        width: 100%; /* Full width of the viewport */
+        height: 50vh; /* Half the height of the viewport */
+        filter: none; /* Remove grayscale to display original color */
+    }
+
+    .barber_name {
+        position: absolute;
+        right: 5%; /* Position the name on the right side */
+        top: 57%;
+        transform: translateY(-50%);
+        color: red; /* Red color always visible */
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Lobster', cursive;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: none; /* Remove transition */
+        text-align: right;
+        writing-mode: horizontal-tb; /* Keep the text in horizontal mode */
+        white-space: normal; /* Allow text to wrap to the next line */
+    }
+
+    .barber_name:first-child {
+        /* Specific styling for the first barber's name to handle the long name */
+        white-space: pre-line; /* Force line break between 'Мухаммад' and 'Али' */
+    }
+
+    .barber:hover {
+        filter: none; /* Ensure no grayscale effect on hover */
+    }
+
+    .barber_name {
+        color: red; /* Ensure names are always red */
+    }
+}
+@media (max-width: 500px) {
+    .barber_name {
+        top: 55%;
+        font-size: 20px;
+        white-space: normal; /* Allow text to wrap to the next line */
+        line-height: 1.2; /* Adjust the line height for better spacing */
+    }
+
+    /* Ensure each name and the title 'Barber' appear on separate lines */
+    .barber_name:first-child::after,
+    .barber_name:last-child::after {
+        content: "Barber";
+        display: block;
+        margin-top: 5px; /* Space between name and title */
+        font-size: 18px; /* Slightly smaller font for the title */
+        color: red; /* Consistent color */
+    }
+}
+
+@media (max-width: 440px) {
+    .barber_name {
+        top: 55%;
+    }
+    .barber_name:first-child {
+        font-size: 20px;
+    }
+}

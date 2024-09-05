@@ -1,0 +1,160 @@
+.Services_container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow-y: auto;
+}
+
+.service_bg_image {
+    position: fixed;
+    width: 96%;
+    margin-left: 1%;
+    height: 100vh;
+    background-image: url('https://rival.team/images/hover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+}
+
+.centered_boxes_container {
+    padding-top: 15rem;
+}
+
+.centered_box {
+    position: relative;
+    width: 85%;
+    min-height: 144px;
+    margin: 24px auto;
+    border: 2px solid rgba(255, 255, 255, 0.15); 
+    border-radius: 3px;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.service_content {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid gray;
+}
+
+.service_icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.service_text {
+    max-width: 60%;
+}
+
+.service_main_text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.service_sub_text {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.service_price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    color: #E74C3C;
+}
+.Service_footer {
+    position: relative;
+    width: 85%;
+    min-height: 144px;
+    margin: 24px auto;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.Service_footer .service_location_box {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.Service_footer .service_location_box a:last-child {
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.Service_footer .service_location_box a:last-child:hover {
+    color: #f00;
+}
+
+.Service_footer .service_social_media_box {
+    width: 14%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 28px;
+}
+
+.Service_footer .service_social_media_box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 1s ease;
+}
+
+.Service_footer .service_social_media_box a:hover {
+    cursor: pointer;
+    color: #f00;
+}
+
+@media screen and (min-width: 400px) and (max-width: 850px) {
+    .Service_footer .service_social_media_box {
+        width: 28%;
+    }
+}
+@media (max-width: 400px) {
+    .Service_footer .service_social_media_box{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 775px) {
+    .centered_boxes_container {
+        padding-top: 12rem;
+    }
+    .centered_box {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .service_price {
+        margin-top: 20px;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+
+    .service_content {
+        border-right: none;
+        width: 100%;
+    }
+    
+    .service_text {
+        max-width: 100%;
+    }
+}
