@@ -41,7 +41,7 @@
 .service_content {
     display: flex;
     align-items: center;
-    border-right: 1px solid gray;
+    /* border-right: 1px solid gray; */
 }
 
 .service_icon {
@@ -73,6 +73,8 @@
     font-weight: bold;
     text-align: right;
     color: #E74C3C;
+    border-left: 1px solid gray; /* Move border to service_price */
+    padding-left: 20px; /* Add padding for spacing */
 }
 .Service_footer {
     position: relative;

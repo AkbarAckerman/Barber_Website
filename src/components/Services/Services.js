@@ -18,7 +18,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Мужская стрижка</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Мужская стрижка выполняется машинкой и ножницами, с использованием косметики, подобранной для типа волос и стиля.
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Моделирования бороды</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Моделирование бороды проводится триммером и ножницами с применением средств, подходящих для кожи и формы.
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Чистка лица чёрная маска</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Чистка лица с чёрной маской проводится для удаления загрязнений и улучшения состояния кожи.
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Королевский бритьё лица</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Королевское бритьё лица выполняется опасной бритвой с использованием средств для увлажнения и защиты кожи.
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Камуфляж Бороды</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Камуфляж бороды выполняется с использованием краски, подобранной для естественного цвета и равномерного покрытия.
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Стрижка ножницами</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Стрижка ножницами проводится вручную, с точной проработкой формы и длины, подбирая стиль под тип волос.
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Камуфляж головы</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Камуфляж головы проводится с помощью краски, которая подбирается для естественного цвета и маскировки седины.
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Детская стрижка</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Детская стрижка выполняется с учётом особенностей волос и предпочтений ребёнка, создавая комфортную атмосферу.
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Бритьё шейвером</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Бритьё шейвером выполняется для гладкой кожи, обеспечивая комфорт и быстрое удаление волос без раздражения.
               </div>
             </div>
           </div>
@@ -124,9 +124,9 @@ function Services() {
           <div className='service_content'>
             <div className='service_icon'><img src='	https://rival.team/upload/service/b1/78/servises2.svg'></img></div>
             <div className='service_text'>
-              <div className='service_main_text'>Стрижка Отец +Сын</div>
+              <div className='service_main_text'>Стрижка Отец + Сын</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Стрижка «Отец + Сын» предполагает совместное посещение, создавая стильные образы для обеих поколений и укрепляя связь.
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Воск комплекс</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Воск комплекс применяется для укладки волос, обеспечивая стойкость и естественный вид, подчеркивая текстуру прически.
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Окантовка + мойка головы</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Окантовка и мойка головы выполняются для создания аккуратного образа, включая освежение и уход за волосами и кожей головы.
               </div>
             </div>
           </div>
@@ -161,8 +161,8 @@ function Services() {
             <div className='service_icon'><img src='	https://rival.team/upload/service/ac/88/servises4.svg'></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Стрижка пенсионером</div>
-              <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              <div className='service_sub_text'>      
+Стрижка пенсионером проводится с учётом предпочтений и комфорта клиента, обеспечивая удобный и стильный вид.
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@ function Services() {
             <div className='service_text'>
               <div className='service_main_text'>Оформление жениха</div>
               <div className='service_sub_text'>
-                Performed with clippers and scissors, along with personally selected cosmetics for the type of hair and style.
+              Оформление жениха включает стрижку, укладку и Grooming, создавая стильный и ухоженный образ для важного события.
               </div>
             </div>
           </div>
