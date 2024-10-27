@@ -65,7 +65,7 @@
 }
 
 .barber:nth-child(3) {
-  background-image: url('../assets/barber_three.jpg');
+  background-image: url('../assets/barber_three.webp');
   background-position: center; /* Standard center */
 }
 
