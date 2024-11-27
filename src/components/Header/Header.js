@@ -42,7 +42,7 @@ function Header() {
         {isMenuOpen && (
           <div className='header_contact_container'>
             <div className='work_time_text'>10:00 до 20:00</div>
-            <a href='tel:++998 94 943 80 80' className='telephone_number'>+998 97 491 11 18</a>
+            <a href='tel:++998 94 943 80 80' className='telephone_number'>+998 94 943 80 80</a>
             <a href='https://n1245856.alteg.io/' className='submit'>записаться</a>
           </div>
         )}
