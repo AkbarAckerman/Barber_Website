@@ -186,9 +186,9 @@ function Services() {
             <a href='https://maps.app.goo.gl/cvvgtaPtsXEYdFgw8'>Ташкент, ул.Махтумкули, 62</a>
           </div>
           <div className='service_social_media_box'>
-          <a href="https://t.me/hawk_strike_ali_and_aziz"><FaTelegramPlane /></a>
+          <a href="https://web.telegram.org/a/#7285745714"><FaTelegramPlane /></a>
           <a href="http://facebook.com/hawk.strike.uz"><FaFacebookSquare /></a>
-          <a href="https://instagram.com/hawkstrikebarbershop"><FaInstagram /></a>
+          <a href="https://www.instagram.com/hawk_strike_uzb_/"><FaInstagram /></a>
           </div>
         </div>
 
