@@ -22,7 +22,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>180.000 сум</div>
+          <div className='service_price'>200.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -34,7 +34,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>150.000 сум</div>
+          <div className='service_price'>170.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -46,7 +46,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>120.000 сум</div>
+          <div className='service_price'>150.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -58,7 +58,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>150.000 сум</div>
+          <div className='service_price'>170.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -82,7 +82,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>200.000 сум</div>
+          <div className='service_price'>220.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -94,7 +94,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>150.000 сум</div>
+          <div className='service_price'>170.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -106,7 +106,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>120.000 сум</div>
+          <div className='service_price'>150.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -118,7 +118,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>100.000 сум</div>
+          <div className='service_price'>120.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -130,7 +130,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>250.000 сум</div>
+          <div className='service_price'>300.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -142,7 +142,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>60.000 сум</div>
+          <div className='service_price'>70.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -154,7 +154,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>100.000 сум</div>
+          <div className='service_price'>120.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -166,7 +166,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>75.000 сум</div>
+          <div className='service_price'>120.000 сум</div>
         </div>
         <div className='centered_box'>
           <div className='service_content'>
@@ -178,7 +178,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className='service_price'>1 200. 000 сум</div>
+          <div className='service_price'>1 400. 000 сум</div>
         </div>
         <div className='Service_footer'>
           <div className='service_location_box'>

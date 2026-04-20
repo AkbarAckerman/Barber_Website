@@ -14,6 +14,7 @@ const backgrounds = [
 ];
 
 function Home() {
+  
   useEffect(() => {
     let index = 0;
     const changeBackground = () => {
