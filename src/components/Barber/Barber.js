@@ -3,14 +3,11 @@ import Header from '../Header/Header';
 import './Barber.css';
 import barberImage1 from '../assets/test1.png';
 import barberImage2 from '../assets/test2.png';
-import barberImage3 from '../assets/barber_three.jpg';
-import barberImage4 from '../assets/barber_four.jpg';
+
 
 const barbers = [
   { name: 'Али барбер', image: barberImage1 },
   { name: 'Азиз барбер', image: barberImage2 },
-  { name: 'Иззат барбер', image: barberImage3 },
-  { name: 'Пепе барбер', image: barberImage4 },
 ];
 
 function Barber() {
