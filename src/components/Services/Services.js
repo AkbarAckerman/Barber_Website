@@ -38,7 +38,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='https://rival.team/upload/service/36/84/servises3.svg'></img></div>
+            <div className='service_icon'><img src='https://rival.team/upload/service/36/84/servises3.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Чистка лица чёрная маска</div>
               <div className='service_sub_text'>
@@ -50,7 +50,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='	https://rival.team/upload/service/b4/b0/servises1.svg'></img></div>
+            <div className='service_icon'><img src='	https://rival.team/upload/service/b4/b0/servises1.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Королевский бритьё лица</div>
               <div className='service_sub_text'>
@@ -62,7 +62,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='https://rival.team/upload/service/1e/82/servises1.svg'></img></div>
+            <div className='service_icon'><img src='https://rival.team/upload/service/1e/82/servises1.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Камуфляж Бороды</div>
               <div className='service_sub_text'>
@@ -74,7 +74,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='https://rival.team/upload/service/51/8e/servises2.svg'></img></div>
+            <div className='service_icon'><img src='https://rival.team/upload/service/51/8e/servises2.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Стрижка ножницами</div>
               <div className='service_sub_text'>
@@ -86,7 +86,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='	https://rival.team/upload/service/0f/77/servises2.svg'></img></div>
+            <div className='service_icon'><img src='	https://rival.team/upload/service/0f/77/servises2.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Камуфляж головы</div>
               <div className='service_sub_text'>
@@ -98,7 +98,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='	https://rival.team/upload/service/60/86/servises5.svg'></img></div>
+            <div className='service_icon'><img src='	https://rival.team/upload/service/60/86/servises5.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Детская стрижка</div>
               <div className='service_sub_text'>
@@ -110,7 +110,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='https://rival.team/upload/service/43/40/servises6.svg'></img></div>
+            <div className='service_icon'><img src='https://rival.team/upload/service/43/40/servises6.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Бритьё шейвером</div>
               <div className='service_sub_text'>
@@ -122,7 +122,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='	https://rival.team/upload/service/b1/78/servises2.svg'></img></div>
+            <div className='service_icon'><img src='	https://rival.team/upload/service/b1/78/servises2.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Стрижка Отец + Сын</div>
               <div className='service_sub_text'>
@@ -134,7 +134,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='https://rival.team/upload/service/e5/8f/servises3.svg'></img></div>
+            <div className='service_icon'><img src='https://rival.team/upload/service/e5/8f/servises3.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Воск комплекс</div>
               <div className='service_sub_text'>
@@ -146,7 +146,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='	https://rival.team/upload/service/16/81/servises2.svg'></img></div>
+            <div className='service_icon'><img src='	https://rival.team/upload/service/16/81/servises2.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Окантовка + мойка головы</div>
               <div className='service_sub_text'>
@@ -158,7 +158,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='	https://rival.team/upload/service/ac/88/servises4.svg'></img></div>
+            <div className='service_icon'><img src='	https://rival.team/upload/service/ac/88/servises4.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Стрижка пенсионером</div>
               <div className='service_sub_text'>      
@@ -170,7 +170,7 @@ function Services() {
         </div>
         <div className='centered_box'>
           <div className='service_content'>
-            <div className='service_icon'><img src='	https://rival.team/upload/service/e5/8f/servises3.svg'></img></div>
+            <div className='service_icon'><img src='	https://rival.team/upload/service/e5/8f/servises3.svg' alt=''></img></div>
             <div className='service_text'>
               <div className='service_main_text'>Оформление жениха</div>
               <div className='service_sub_text'>
