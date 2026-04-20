@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import './Barber.css';
 import barberImage1 from '../assets/test1.png';
 import barberImage2 from '../assets/test2.png';
