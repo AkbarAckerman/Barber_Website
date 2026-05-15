@@ -15,7 +15,7 @@
 
 .barber {
   width: 50%; /* Each barber takes 25% of the width */
-  height: 100vh; /* Full height of the viewport */
+  height:100vh; /* Full height of the viewport */
   background-size: cover; /* Ensure background image covers the full box */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Ensure the background image doesn't repeat */

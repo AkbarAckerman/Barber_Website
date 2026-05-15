@@ -43,7 +43,7 @@ function Header() {
           <div className='header_contact_container'>
             <div className='work_time_text'>10:00 до 20:00</div>
             <a href='tel:++998 94 943 80 80' className='telephone_number'>+998 94 943 80 80</a>
-            <a href='https://n1245856.alteg.io/' className='submit'>записаться</a>
+            <a href='https://macros-booking.pages.dev/?shop=' className='submit'>записаться</a>
           </div>
         )}
       </ul>
@@ -53,7 +53,7 @@ function Header() {
       <div className='header_contact_container'>
         <div className='work_time_text'>10:00 до 20:00</div>
         <a href='tel:++998 94 943 80 80' className='telephone_number'>+998 94 943 80 80</a>
-        <a href='https://n1245856.alteg.io/' className='submit'>записаться</a>
+        <a href='https://macros-booking.pages.dev/?shop=' className='submit'>записаться</a>
       </div>
     </nav>
   );
